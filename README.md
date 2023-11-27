@@ -100,4 +100,9 @@ Please note that there is only one admin account.
     ```bash
     php artisan serve
 
+### License 
+    This project is not licensed for public use. It is a training project intended for educational purposes, and its code and resources are not released under any specific license.
 
+    If you're using this project for educational or personal purposes, feel free to explore, modify, and learn from the code. However, please be aware that it does not come with any warranty or support.
+
+    For any inquiries regarding the project, you can contact [mirsolikh.usmonov@final.edu.tr].
