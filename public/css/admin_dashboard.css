@@ -1,0 +1,41 @@
+body{
+    background: #f4f4f4;
+  }
+
+
+
+ 
+  .main-color-bg{
+    background-color: #2D3142 !important;
+    color:#ffffff !important;
+  }
+  
+  /* breadcrumb */
+  .breadcrumb{
+    background: #cccccc;
+    color:#333333;
+  }
+  .breadcrumb a{
+    color: #333333;
+  }
+  /* progress bar*/
+  .progress-bar{
+    background: #333333;
+    color: #ffffff;
+  }
+  /* wells */
+  .dash-box{
+    text-align: center;
+  }
+  /* footer */
+  #footer{
+    text-align: center;
+    background: #333333;
+    color:#ffffff;
+    padding:30px;
+    margin-bottom: 10px;
+  }
+  
+  
+
+  

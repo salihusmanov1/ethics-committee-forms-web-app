@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+ body {
+
+
+   background-color: #f0f0f0;
+   font-family: 'Montserrat', sans-serif;
+   min-width: 520px;
+ }
+
+
+ #wrapper {
+   overflow-x: hidden;
+
+ }
+
+ #sidebar-wrapper {
+   min-height: 100vh;
+   margin-left: -15rem;
+   -webkit-transition: margin 0.25s ease-out;
+   -moz-transition: margin 0.25s ease-out;
+   -o-transition: margin 0.25s ease-out;
+   transition: margin 0.25s ease-out;
+   background-color: #2D3142;
+ }
+
+ #sidebar-wrapper .sidebar-heading {
+   color: #fff;
+   padding: 1.2rem 1.25rem;
+   font-size: 1.2rem;
+ }
+
+ #sidebar-wrapper .list-group {
+   width: 15rem;
+ }
+
+ .username {
+   margin-right: 5rem;
+ }
+
+ #icon {
+   color: #ffffff;
+   position: absolute;
+   top: 55%;
+   left: 105px;
+   transform: translateY(-100%);
+   transition: .4s;
+ }
+
+ #page-content-wrapper {
+   min-width: 100vw;
+ }
+
+ .navbar {
+   border-radius: 0 !important;
+   background-color: #fff !important;
+ }
+
+ #wrapper.toggled #sidebar-wrapper {
+   margin-left: 0;
+ }
+
+ #menu-toggle {
+   color: #2D3142;
+   cursor: pointer;
+ }
+
+ .subcategory {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.3s ease;
+ }
+ 
+
+ .list-group-item {
+   color: #fff !important;
+   border: none;
+   padding: 20px 30px;
+   font-size: 16px;
+ }
+
+ .list-group-item:hover {
+   border-radius: 0;
+   background-color: #656771 !important;
+ }
+
+ .list-group-item.active {
+   background-color: transparent;
+   font-weight: bold;
+   border: none;
+ }
+
+ #navbarDropdown {
+   border-style: none;
+ }
+
+ @media (min-width: 768px) {
+   #sidebar-wrapper {
+     margin-left: 0;
+   }
+
+   #page-content-wrapper {
+     min-width: 0;
+     width: 100%;
+   }
+
+   #wrapper.toggled #sidebar-wrapper {
+     margin-left: -15rem;
+   }
+ }

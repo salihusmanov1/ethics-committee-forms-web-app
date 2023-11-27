@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+body {
+  background: #ebf4ff;
+  font-family: 'Karla', sans-serif;
+
+}
+
+h2 {
+  color: #ffffff;
+  margin: 0 !important;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #da5767;
+  text-decoration: none;
+}
+
+.card {
+  
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
+
+
+
+.card .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2D3142;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img{
+  width: 60%;
+}
+
+
+.card-body .button {
+  margin-top: 2rem;
+}
+
+.form-control {
+  font-size: 14px;
+  background-color: #f8f9fa;
+  padding: 20px 10px;
+  margin: 2rem 0;
+}
+
+.form-control:focus {
+
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #2D3142;
+  outline: 0;
+  box-shadow: none;
+
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  background: #2D3142;
+  border: 2px solid #2D3142;
+}
+
+.btn-primary:hover {
+
+
+  background-color: #70706e;
+  border-color: #70706e;
+  transition: .3s;
+
+}
