@@ -53,24 +53,36 @@ Follow these steps to get a local copy of the project up and running on your mac
 
 2. Navigate to the project directory:
 
+    ```bash
    cd ethics-committee-forms-web-app
 
 3. Install dependencies:
 
+    ```bash
     composer install
 
 4. Create a copy of the .env file:
 
+    ```bash
     cp .env.example .env
 
 5. Download the MySQL File:
-   Download the provided MySQL file from [here](./).
+   Download the provided MySQL file from [here](conversion_form.sql).
 
 6. Generate an application key:
-    
+
+    ```bash
     php artisan key:generate
 
     Update the .env file with your database credentials.
+
+7. Import the Database:
+   Use a MySQL database management tool (e.g., phpMyAdmin, MySQL Workbench) or run the following command in your terminal to import the database:
+
+8. Start the development server:
+
+    ```bash
+    php artisan serve
 
 
 ## License
