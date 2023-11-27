@@ -50,6 +50,29 @@ Follow these steps to get a local copy of the project up and running on your mac
 
    ```bash
    git clone https://github.com/your-username/ethics-committee-forms-web-app.git
+
+2. Navigate to the project directory:
+
+   cd ethics-committee-forms-web-app
+
+3. Install dependencies:
+
+    composer install
+
+4. Create a copy of the .env file:
+
+    cp .env.example .env
+
+5. Download the MySQL File:
+   Download the provided MySQL file from [here](./).
+
+6. Generate an application key:
+    
+    php artisan key:generate
+
+    Update the .env file with your database credentials.
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
