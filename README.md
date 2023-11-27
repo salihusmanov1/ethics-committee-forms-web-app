@@ -41,6 +41,25 @@ This project was initiated as part of a summer training program and is currently
 
 Follow these steps to get a local copy of the project up and running on your machine.
 
+**User Registration**
+
+To use the application as a user, follow these steps:
+
+1. Navigate to the registration page.
+2. Fill in the required information.
+3. Submit the registration form.
+4. Select any form, fill it and submit.
+5. Open App Status Page to see submitted forms and their status.
+
+**Admin Credentials**
+
+To access the admin panel as administrator, use the following credentials:
+
+- **Username:** mirsolikh.usmonov@final.edu.tr
+- **Password:** 123456
+
+Please note that there is only one admin account.
+
 ### Installation
 
 1. Clone the repository:
