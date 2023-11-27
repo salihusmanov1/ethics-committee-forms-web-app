@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ethics Committee Forms Web Application
 
 ## Table of Contents
@@ -71,7 +71,7 @@ Follow these steps to get a local copy of the project up and running on your mac
     ```bash
     php artisan key:generate
 
-7.Update the .env file with your database credentials.
+7. Update the .env file with your database credentials.
 
 8. Import the Database:
    Use a MySQL database management tool (e.g., phpMyAdmin, MySQL Workbench) or run the following command in your terminal to import the database:
@@ -82,10 +82,3 @@ Follow these steps to get a local copy of the project up and running on your mac
     php artisan serve
 
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# ethics-committee-forms-web-app
-Ethics Committee Forms Management web application aims to simplify and streamline the process of submitting and managing university Ethics Committee forms.
->>>>>>> origin/master
