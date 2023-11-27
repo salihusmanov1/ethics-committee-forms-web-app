@@ -8,10 +8,7 @@
 - [Project Status](#project-status)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
@@ -74,12 +71,12 @@ Follow these steps to get a local copy of the project up and running on your mac
     ```bash
     php artisan key:generate
 
-    Update the .env file with your database credentials.
+7.Update the .env file with your database credentials.
 
-7. Import the Database:
+8. Import the Database:
    Use a MySQL database management tool (e.g., phpMyAdmin, MySQL Workbench) or run the following command in your terminal to import the database:
 
-8. Start the development server:
+9. Start the development server:
 
     ```bash
     php artisan serve
